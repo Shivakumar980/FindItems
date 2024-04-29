@@ -1,0 +1,51 @@
+  /* ItemList.css */
+.item-list-container {
+    padding: 20px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minimum width of each card */
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 500px; /* Set a fixed height for each card */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px; /* Set a fixed height for each image */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-details {
+    padding: 20px;
+  }
+  
+  .card-details h3 {
+    margin-top: 0;
+  }
+  
+  .card-details p {
+    margin: 5px 0;
+  }
+  /* ItemService.css */
+.contact-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: darkgreen;
+  }
+  
